@@ -1,4 +1,4 @@
-class SocPowerBuddy < Formula
+class Socpwrbud < Formula
     desc "A Sudoless Apple Silicon tool able to retrieve per-core active frequencies, residency, power, and more."
     homepage "https://github.com/BitesPotatoBacks/SocPowerBuddy"
     url "https://github.com/BitesPotatoBacks/SocPowerBuddy/releases/latest/download/socpwrbud.tar.gz"
