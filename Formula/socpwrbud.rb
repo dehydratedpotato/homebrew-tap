@@ -1,9 +1,9 @@
 class Socpwrbud < Formula
-    desc "A Sudoless Apple Silicon tool able to retrieve per-core active frequencies, residency, power, and more."
+    desc "For Apple Silicon - A sudoless command-line utility to profile per-core frequencies, cycles, instructions, power, and more!"
     homepage "https://github.com/BitesPotatoBacks/SocPowerBuddy"
     url "https://github.com/BitesPotatoBacks/SocPowerBuddy/releases/latest/download/socpwrbud.tar.gz"
-    sha256 "6bc0015149dbcbf5cf2026c71c741aaa973111c4d423f502007effe0d6f4bf4d"
-    version "0.3.4"
+    sha256 "8ba8a81e6ea852a90b8b75a99cc1b0196d33040257b4adbfb6f3d4e5c630c12b"
+    version "0.4"
 
     def install
         bin.install "socpwrbud"
