@@ -1,9 +1,9 @@
 class Socpwrbud < Formula
-    desc "For Apple Silicon - A sudoless command-line utility to profile per-core frequencies, cycles, instructions, power, and more!"
-    homepage "https://github.com/dehydratedpotato/SocPowerBuddy"
-    url "https://github.com/dehydratedpotato/SocPowerBuddy/releases/latest/download/socpwrbud.tar.gz"
-    sha256 "8ba8a81e6ea852a90b8b75a99cc1b0196d33040257b4adbfb6f3d4e5c630c12b"
-    version "0.4"
+    desc "Sudoless utility to profile current frequency, cycles, voltage, residency, and more on Apple Silicon"
+    homepage "https://github.com/dehydratedpotato/socpowerbud"
+    url "https://github.com/dehydratedpotato/socpowerbud/releases/latest/download/socpwrbud.tar.gz"
+    sha256 "b79baf5a32f55716edefc36298dbe1eca9ba6fca55edfeea824ef947ae0baec8"
+    version "0.4.1"
 
     def install
         bin.install "socpwrbud"
